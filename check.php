@@ -22,7 +22,7 @@
             $_SESSION["name"] = $data["name"];
             $_SESSION["filiere"] = $data["filiere"];
             $_SESSION["massar"] = $data["massar"];
-            header("Location: recherche_notes.php");
+            header("Location: rechercher_note.php");
             exit();
         }
         else {
